@@ -24,8 +24,9 @@ dev = [
 minversion = "6.0"
 addopts = "-rP"
 testpaths = [
-    "test"
+    "tests"
 ]
+python_files = ["test_*.py"]
 
 [tool.pyright]
 include = ["validator"]
